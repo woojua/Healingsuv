@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>힐링반야생 - 정보</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0f1117;
+    color:#f5f5f5;
+    font-family:'Malgun Gothic',sans-serif;
+}
+
+.sidebar{
+    position:fixed;
+    left:20px;
+    top:20px;
+    width:220px;
+    background:#171a23;
+    border:1px solid rgba(200,162,255,.2);
+    border-radius:15px;
+    padding:15px;
+    z-index:999;
+}
+
+.sidebar h3{
+    color:#c8a2ff;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:12px;
+    border-radius:8px;
+    margin:5px 0;
+    transition:.3s;
+}
+
+.sidebar a:hover{
+    background:#5865F2;
+}
+
+.container{
+    margin-left:270px;
+    padding:40px;
+}
+
+.card{
+    background:#171a23;
+    border:1px solid rgba(200,162,255,.15);
+    border-radius:18px;
+    padding:35px;
+    width:100%;
+}
+
+h1{
+    color:#c8a2ff;
+    margin-bottom:25px;
+    font-size:2.2rem;
+}
+
+.info-item{
+    background:#202432;
+    padding:18px;
+    border-radius:12px;
+    margin-bottom:15px;
+}
+
+.info-item strong{
+    color:#c8a2ff;
+}
+
+.discord{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 35px;
+    background:linear-gradient(135deg,#5865F2,#8B5CF6);
+    border-radius:12px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.discord:hover{
+    transform:translateY(-3px);
+}
+
+@media(max-width:900px){
+
+    .sidebar{
+        position:relative;
+        width:100%;
+        left:0;
+        top:0;
+        margin-bottom:20px;
+    }
+
+    .container{
+        margin-left:0;
+        padding:20px;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<nav class="sidebar">
+    <h3>📖 메뉴</h3>
+
+    <a href="index.html">🏠 홈</a>
+    <a href="rules.html">📜 규칙</a>
+    <a href="info.html">ℹ️ 정보</a>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>ℹ️ 서버 정보</h1>
+
+        <div class="info-item">
+            <strong>서버명</strong><br>
+            힐링반야생
+        </div>
+
+        <div class="info-item">
+            <strong>장르</strong><br>
+            힐링 반야생
+        </div>
+
+        <div class="info-item">
+            <strong>커뮤니티</strong><br>
+            Discord
+        </div>
+
+        <div class="info-item">
+            <strong>운영 방향</strong><br>
+            자유롭고 편안한 힐링 중심 플레이
+        </div>
+
+        <div class="info-item">
+            <strong>디스코드</strong><br>
+            공식 커뮤니티 참여 가능
+        </div>
+
+        <a href="https://discord.gg/BvN4RsnCN4"
+           target="_blank"
+           class="discord">
+            🎮 디스코드 참여하기
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
